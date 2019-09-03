@@ -10,7 +10,7 @@ int main(int argc, char* argv[]) {
   if (max == 0) max = 100;
 
   for (i = 0 ; i < max ; i++) {
-    j += i * (100 - i);
+    j += i * (max - i);
   }
 
   printf("i : %d, j : %d\n", i, j);
